@@ -1,10 +1,39 @@
 /* ===== Entire website ===== */
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+header a {
+  color: black;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  gap: 24px;
+}
+
 body {
   max-width: 1100px;
   margin: 0 auto;
   padding-left: 24px;
   padding-right: 24px;
+}
+
+footer {
+  margin-top: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #dddddd;
+  font-size: 14px;
+  color: #777777;
 }
 
 /* ===== Contact page ===== */
@@ -42,6 +71,9 @@ body {
 
 .contact img {
   width: 100%;
+  width: 100%;
+  height: 61%;
+  object-fit: cover;
 }
 
 .contact button {
