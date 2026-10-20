@@ -1,7 +1,11 @@
 /* ===== Entire website ===== */
 
-
-
+body {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 24px;
+  padding-right: 24px;
+}
 
 /* ===== Contact page ===== */
 
@@ -17,6 +21,15 @@
 .contact textarea {
   display: block;
   width: 100%;
+}
+
+.contact label {
+  margin-top: 16px;
+  margin-bottom: 6px;
+}
+
+.contact textarea {
+  height: 160px;
 }
 
 .contact section {
