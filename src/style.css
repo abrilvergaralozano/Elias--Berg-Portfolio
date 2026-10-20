@@ -23,6 +23,8 @@ body {
   margin: 0 auto;
   padding-left: 24px;
   padding-right: 24px;
+  font-family: 'Inter', Arial, sans-serif;
+  background-color: #fafafa;
 }
 
 footer {
@@ -70,6 +72,7 @@ textarea:focus-visible {
 
 .contact textarea {
   height: 160px;
+  
 }
 
 .contact section {
