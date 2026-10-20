@@ -6,6 +6,10 @@ header {
   align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #dddddd;
+  padding-bottom: 20px;
 }
 
 header a {
@@ -77,6 +81,14 @@ textarea:focus-visible {
 .contact input,
 .contact textarea {
   background-color: transparent;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #999999;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
 }
 
 .contact section {
