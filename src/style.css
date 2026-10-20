@@ -72,7 +72,11 @@ textarea:focus-visible {
 
 .contact textarea {
   height: 160px;
-  
+}
+
+.contact input,
+.contact textarea {
+  background-color: transparent;
 }
 
 .contact section {
