@@ -178,3 +178,34 @@ img {
     height: 240px;
   }
 }
+
+/* ===== BUTTONS ===== */
+
+/* Space between the two buttons */
+.intro-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+/* Shared look for both buttons */
+.button {
+  display: inline-block;
+  padding: 10px 16px;
+  font-weight: 600;
+  text-decoration: none;
+  border: 2px solid black;
+}
+
+/* "Book a shoot": black with white text */
+.button-primary {
+  background-color: black;
+  color: white;
+}
+
+/* "About me": white with black text and black border */
+.button-secondary {
+  background-color: white;
+  color: black;
+}
