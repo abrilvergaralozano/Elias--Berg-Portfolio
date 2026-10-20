@@ -18,3 +18,8 @@ A portfolio website for the fictional food and interior photographer Elias Berg,
 ## Image sources
 
 - personwithcamera.webp – from Cosmos (cosmos.so)
+- Interior.jpg – from Pinterest (pinterest.com)
+- seasonal-menu.jpg – from from Pinterest (pinterest.com)
+- brunch.jpg – from from Pinterest (pinterest.com)
+- hero-cafe.jpg – from from Pinterest (pinterest.com)
+- cameraontable.webp – from Pinterest (pinterest.com)
