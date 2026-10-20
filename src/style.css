@@ -23,6 +23,8 @@ body {
   margin: 0 auto;
   padding-left: 24px;
   padding-right: 24px;
+  font-family: 'Inter', Arial, sans-serif;
+  background-color: #fafafa;
 }
 
 footer {
@@ -44,7 +46,7 @@ textarea:focus-visible {
   outline-width: 2px;
   outline-style: solid;
   outline-color: black;
-  outline-offset: 2px;s
+  outline-offset: 2px;
 }
 
 /* ===== Contact page ===== */
@@ -70,6 +72,11 @@ textarea:focus-visible {
 
 .contact textarea {
   height: 160px;
+}
+
+.contact input,
+.contact textarea {
+  background-color: transparent;
 }
 
 .contact section {
