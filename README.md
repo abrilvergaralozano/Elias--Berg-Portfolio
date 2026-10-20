@@ -22,4 +22,4 @@ A portfolio website for the fictional food and interior photographer Elias Berg,
 - seasonal-menu.jpg – from from Pinterest (pinterest.com)
 - brunch.jpg – from from Pinterest (pinterest.com)
 - hero-cafe.jpg – from from Pinterest (pinterest.com)
-- cameraontable.webp – from Pinterest (pinterest.com)
+
