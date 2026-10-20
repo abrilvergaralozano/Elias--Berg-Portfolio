@@ -1,56 +1,20 @@
-# sv
+# Elias Berg – Portfolio
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A portfolio website for the fictional food and interior photographer Elias Berg, built with SvelteKit as a group project.
 
-## Creating a project
+## How to run
 
-If you're seeing this, you've probably already done this step. Congrats!
+1. npm install
+2. npm run dev
+3. Open http://localhost:5173
 
-```sh
-# create a new project
-npx sv create my-app
-```
+## Pages
 
-To recreate this project with the same configuration:
+- Home (/) – introduction and selected work
+- About (/about) – biography and approach
+- Contact (/contact) – contact form, handled on the server
+- Messages (/messages) – shows all received messages
 
-```sh
-# recreate this project
-npx sv@1.1.1 create --template minimal --no-types --install npm .
-```
+## Image sources
 
-## Adding features
-
-Add features to your project with `sv add`:
-
-```sh
-npx sv add
-```
-
-For example, to add Tailwind CSS:
-
-```sh
-npx sv add tailwindcss
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+- personwithcamera.webp – from Cosmos (cosmos.so)
