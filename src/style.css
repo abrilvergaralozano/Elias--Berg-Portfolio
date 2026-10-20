@@ -36,6 +36,17 @@ footer {
   color: #777777;
 }
 
+/* Show a black outline on whatever is selected with the Tab key */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline-width: 2px;
+  outline-style: solid;
+  outline-color: black;
+  outline-offset: 2px;
+}
+
 /* ===== Contact page ===== */
 
 .contact {
