@@ -1,11 +1,20 @@
 <script>
-	import favicon from '#lib/assets/favicon.svg';
-
-	let { children } = $props();
+  import '../style.css';
+  let { children } = $props();
 </script>
 
-<svelte:head>
-	<link rel="icon" href={favicon} />
-</svelte:head>
+<header>
+  <a href="/" class="logo">Elias Berg</a>
+  <nav>
+    <a href="/">Work</a>
+    <a href="/about">About</a>
+    <a href="/contact">Contact</a>
+    <a href="/messages">Messages</a>
+  </nav>
+</header>
 
 {@render children()}
+
+<footer>
+  <p>© 2026 Elias Berg</p>
+</footer>
