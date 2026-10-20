@@ -19,7 +19,7 @@
   </section>
 
   <figure class="hero-image">
-    <img src="/images/hero-cafe1.jpg" alt="Bright café interior">
+    <img src="/images/Interior.jpg" alt="Bright café interior">
   </figure>
 
   <section class="selected-work" id="work">
