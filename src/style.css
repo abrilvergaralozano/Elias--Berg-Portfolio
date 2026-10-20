@@ -131,3 +131,43 @@ textarea:focus-visible {
   }
 
 }
+
+/* ===== PHOTOS ON THE MAIN PAGE ===== */
+
+/* All photos: never wider than their box */
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Big hero photo */
+.hero-image {
+  margin: 32px 0 56px;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+}
+
+/* The row of cards: all the same width */
+.work-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 32px;
+}
+
+/* Card photos: all the same size and shape */
+.work-card img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+/* Smaller hero photo on phones */
+@media (max-width: 600px) {
+  .hero-image img {
+    height: 240px;
+  }
+}
