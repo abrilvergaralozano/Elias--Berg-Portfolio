@@ -43,3 +43,25 @@ body {
 .contact img {
   width: 100%;
 }
+
+.contact button {
+  margin-top: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.contact form {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #cccccc;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
