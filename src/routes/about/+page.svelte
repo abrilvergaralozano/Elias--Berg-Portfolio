@@ -52,4 +52,79 @@
     flex-direction: column;
     gap: 18px;
   }
+
+    .about-text h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 500;
+  }
+
+  .about-text h2 {
+    margin: 16px 0 0;
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  .about-text p {
+    margin: 0;
+    line-height: 1.6;
+  }
+
+  .about-lead {
+    font-size: 18px;
+  }
+
+  .about-text ul {
+    margin: 0;
+    padding-left: 20px;
+    line-height: 1.9;
+  }
+
+    .about-cta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding-top: 40px;
+    border-top: 1px solid #D6D4CE;
+  }
+
+  .about-cta p {
+    margin: 0;
+    font-size: 20px;
+  }
+
+  .button-outline {
+    padding: 14px 22px;
+    border: 2px solid #1C1C1A;
+    color: #1C1C1A;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+    .button-outline:hover {
+    background: #1C1C1A;
+    color: #FFFFFF;
+  }
+
+  .button-outline:focus-visible {
+    outline: 3px solid #1F5FD1;
+    outline-offset: 3px;
+  }
+
+  @media (max-width: 700px) {
+    .about {
+      padding-top: 40px;
+    }
+
+    .about-portrait {
+      max-width: 100%;
+      height: 360px;
+    }
+
+    .about-text h1 {
+      font-size: 36px;
+    }
+  }
 </style>
