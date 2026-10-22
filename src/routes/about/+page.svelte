@@ -55,23 +55,10 @@
 
     .about-text h1 {
     margin: 0;
-    font-size: 48px;
-    font-weight: 500;
   }
 
   .about-text h2 {
     margin: 16px 0 0;
-    font-size: 24px;
-    font-weight: 500;
-  }
-
-  .about-text p {
-    margin: 0;
-    line-height: 1.6;
-  }
-
-  .about-lead {
-    font-size: 18px;
   }
 
   .about-text ul {
@@ -123,8 +110,6 @@
       height: 360px;
     }
 
-    .about-text h1 {
-      font-size: 36px;
-    }
+    
   }
 </style>

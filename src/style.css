@@ -1,7 +1,20 @@
 /* ===== Entire website ===== */
 
-h1 {
-  font-size: 50px;
+h1,
+h2,
+h3 {
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 600;
+}
+
+li {
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+label {
+  font-weight: 300;
+  line-height: 1.6;
 }
 
 header {
@@ -13,12 +26,12 @@ header {
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: #dddddd;
-  padding-bottom: 20px;
 }
 
 header a {
   color: black;
   text-decoration: none;
+  font-weight: 300;
 }
 
 nav {
@@ -31,8 +44,8 @@ body {
   margin: 0 auto;
   padding-left: 24px;
   padding-right: 24px;
-  font-family: 'Inter', Arial, sans-serif;
   background-color: #fafafa;
+  font-family: 'Inter', Arial, sans-serif;
 }
 
 footer {
@@ -44,6 +57,11 @@ footer {
   border-top-color: #dddddd;
   font-size: 14px;
   color: #777777;
+}
+
+p {
+  font-weight: 200;
+  line-height: 1.6;
 }
 
 /* Show a black outline on whatever is selected with the Tab key */
